@@ -1,0 +1,42 @@
+/* ************************** */
+/* HERO SECTION*/
+/* ************************** */
+.section-hero {
+  margin-top: 50px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fefaf5;
+  padding: 0 6rem;
+}
+
+.hero__content {
+  text-align: left;
+}
+.hero__heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  color: #335576;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+.hero__subheading {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  color: #335576;
+}
+.hero__img-box {
+  display: flex;
+  justify-content: center;
+}
+.hero__img {
+  width: 80%;
+}
+/* ************************** */
+/* RECOMMENDATIONS SECTION*/
+/* ************************** */
+.section-recommendations {
+  background-color: #ffffff;
+  height: 700px;
+}

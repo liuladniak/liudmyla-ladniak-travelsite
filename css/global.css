@@ -1,0 +1,84 @@
+/* Default browser styling reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Common styles */
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #eae7e7;
+  font-family: "Verdana", sans-serif;
+}
+
+.button {
+  background-color: #db7a4e;
+}
+
+/* ************************** */
+/* HEADER*/
+/* ************************** */
+.header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 1280px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem 6rem;
+  z-index: 999;
+}
+.logo {
+  font-size: 2rem;
+  color: #335576;
+}
+.main-nav__list {
+  display: flex;
+  gap: 2rem;
+}
+.main-nav__link {
+  font-size: 1.4rem;
+}
+.main-nav__link:hover,
+.main-nav__link:active {
+  border-bottom: 2px solid #db7a4e;
+}
+.link--active {
+  border-bottom: 2px solid #db7a4e;
+}
+/* ************************** */
+/* FOOTER*/
+/* ************************** */
