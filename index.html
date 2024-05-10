@@ -13,16 +13,16 @@
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__item">
-            <a href="/" class="main-nav__link">Home</a>
+            <a href="/" class="main-nav__link link--active">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./pages/hawaii.html" class="main-nav__link">Hawaii</a>
           </li>
           <li class="main-nav__item">
             <a href="./pages/iceland.html" class="main-nav__link">Iceland</a>
           </li>
           <li class="nav__item">
             <a href="./pages/greece.html" class="main-nav__link">Greece</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="./pages/hawaii.html" class="main-nav__link">Hawaii</a>
           </li>
         </ul>
       </nav>
@@ -37,7 +37,9 @@
             Don't let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
-          <a class="button" type="button">Get started</a>
+          <a class="button" type="button" href="./pages/get-started.html"
+            >Get started</a
+          >
         </div>
         <div class="hero__img-box">
           <img
@@ -47,8 +49,77 @@
           />
         </div>
       </section>
-      <section class="section-recommendations"></section>
+      <section class="recommendations-section">
+        <h2 class="recommendations__heading">Recommendations</h2>
+        <div class="cards">
+          <a href="./pages/hawaii.html" class="recommendations__link">
+            <article
+              class="card card--recommendations card--recommendations--hawaii"
+            >
+              <span>Hawaii</span>
+            </article>
+          </a>
+
+          <a href="./pages/iceland.html" class="recommendations__link">
+            <article
+              class="card card--recommendations card--recommendations--iceland"
+            >
+              <span>Iceland</span>
+            </article>
+          </a>
+
+          <a href="./pages/greece.html" class="recommendations__link">
+            <article
+              class="card card--recommendations card--recommendations--greece"
+            >
+              <span>Greece</span>
+            </article>
+          </a>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer__contact">
+          <h3 class="footer__header">Contact</h3>
+          <span>Email</span>
+          <a href="mailto:info@travelsite.com">info@travelsite.com</a>
+        </div>
+        <div class="footer__hours">
+          <h3 class="footer__header">Hours</h3>
+          <div class="footer__hours--container">
+            <div>
+              <span>Monday - Friday</span>
+              <p>9:00 AM - 5:00PM</p>
+            </div>
+            <div>
+              <span>Saturday</span>
+              <p>10:00 AM - 4:00PM</p>
+            </div>
+            <div>
+              <span>Sunday</span>
+              <p>Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h3 class="footer__header">Social</h3>
+          <div class="footer__social--container">
+            <a href="https://www.instagram.com/">
+              <img
+                src="./assets/icons/icon-instagram.png"
+                alt="instagram icon"
+              />
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="./assets/icons/icon-facebook.png" alt="facebook icon" />
+            </a>
+            <a href="https://twitter.com/home">
+              <img src="./assets/icons/icon-twitter.png" alt="twitter icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -22,7 +22,7 @@
   margin-bottom: 4rem;
 }
 .hero__subheading {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 4rem;
   color: #335576;
 }
@@ -36,7 +36,45 @@
 /* ************************** */
 /* RECOMMENDATIONS SECTION*/
 /* ************************** */
-.section-recommendations {
+.recommendations-section {
   background-color: #ffffff;
-  height: 700px;
+  padding-top: 4rem;
+  padding: 4rem 6rem 6rem 6rem;
+}
+.card--recommendations {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+.card--recommendations--hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
+}
+.card--recommendations--iceland {
+  background-image: url("../assets/images/iceland.jpg");
+}
+.card--recommendations--greece {
+  background-image: url("../assets/images/greece.jpg");
+}
+.recommendations__heading {
+  color: #335576;
+  margin: 3rem 6rem;
+  font-size: 2.4rem;
+}
+
+.recommendations__img {
+  width: 100%;
+}
+.card span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 3;
+  color: #ffffff;
+  font-size: 2.4rem;
+  letter-spacing: 1.8px;
+  font-weight: 700;
 }

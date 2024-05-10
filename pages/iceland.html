@@ -9,15 +9,113 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">Iceland</nav>
+      <h2 class="logo"><a href="/">Travel Site</a></h2>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="/" class="main-nav__link">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./hawaii.html" class="main-nav__link">Hawaii</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./iceland.html" class="main-nav__link link--active"
+              >Iceland</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="./greece.html" class="main-nav__link">Greece</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section class="itinerary">
-        <article class="friday"></article>
-        <article class="saturday"></article>
-        <article class="sunday"></article>
+      <section class="itinerary itinerary--iceland">
+        <h1 class="itinerary__heading">Iceland</h1>
+        <div class="cards">
+          <article class="card card--itinerary">
+            <div class="itinerary-card__content">
+              <h3 class="itinerary-card__title">Friday</h3>
+              <ul class="itinerary-card__list">
+                <li class="itinerary-card__item">Breakfast</li>
+                <li class="itinerary-card__item">Lunch</li>
+                <li class="itinerary-card__item">Dinner</li>
+                <li class="itinerary-card__item">Hiking</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card card--itinerary">
+            <div class="itinerary-card__content">
+              <h3 class="itinerary-card__title">Saturday</h3>
+              <ul class="itinerary-card__list">
+                <li class="itinerary-card__item">Breakfast</li>
+                <li class="itinerary-card__item">Lunch</li>
+                <li class="itinerary-card__item">Dinner</li>
+                <li class="itinerary-card__item">Hiking</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card card--itinerary">
+            <div class="itinerary-card__content">
+              <h3 class="itinerary-card__title">Sunday</h3>
+              <ul class="itinerary-card__list">
+                <li class="itinerary-card__item">Breakfast</li>
+                <li class="itinerary-card__item">Lunch</li>
+                <li class="itinerary-card__item">Dinner</li>
+                <li class="itinerary-card__item">Hiking</li>
+              </ul>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer__contact">
+          <h3 class="footer__header">Contact</h3>
+          <span>Email</span>
+          <a href="mailto:info@travelsite.com">info@travelsite.com</a>
+        </div>
+        <div class="footer__hours">
+          <h3 class="footer__header">Hours</h3>
+          <div class="footer__hours--container">
+            <div>
+              <span>Monday - Friday</span>
+              <p>9:00 AM - 5:00PM</p>
+            </div>
+            <div>
+              <span>Saturday</span>
+              <p>10:00 AM - 4:00PM</p>
+            </div>
+            <div>
+              <span>Sunday</span>
+              <p>Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h3 class="footer__header">Social</h3>
+          <div class="footer__social--container">
+            <a href="https://www.instagram.com/">
+              <img
+                src="../assets/icons/icon-instagram.png"
+                alt="instagram icon"
+              />
+            </a>
+            <a href="https://www.facebook.com/">
+              <img
+                src="../assets/icons/icon-facebook.png"
+                alt="facebook icon"
+              />
+            </a>
+            <a href="https://twitter.com/home">
+              <img src="../assets/icons/icon-twitter.png" alt="twitter icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
